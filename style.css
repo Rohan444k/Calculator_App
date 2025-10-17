@@ -1,0 +1,48 @@
+.container{
+    padding: 10px;
+    background-color: rgb(88, 87, 87);
+    border: 3px solid black;
+    margin: auto;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    height: 380px;
+    width: 400px;
+}
+
+.display-box{
+    font-family: 'orbitron',sans-serif;
+    background-color: #ddfaff;
+    border: 2px solid black;
+    height: 65%;
+    width: 98%;
+    color: black;
+    border-radius: 5px;
+}
+
+#btn{
+    height: 70%;
+    width: 100%;
+    background-color: rgb(48, 255, 48);
+    cursor: pointer;
+}
+
+input[type=button]{
+    font-family: 'orbitron', sans-serif;
+    background-color: #fefdff;
+    width: 100%;
+    height: 70%;
+    border: 1px solid rgb(4,253,13);
+    color: rgb(84,116,85);
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+input:active[type=button]{
+    background-color: #504f52;
+    box-shadow: 0px 0px 10px black;
+}
+
+body{
+    background-color: rgb(188 188 188);
+}
